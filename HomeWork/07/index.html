@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    <audio controls loop>
+        <source src="./audio/kapitoshka.mp3" type="audio/mp3">
+        <source src="./audio/kapitoshka.ogg" type="audio/ogg">
+    </audio>
+</p>
+<p>
+    <video controls width="500" height="auto" poster="./poster.png">
+        <source src="./video/videoplayback.mp4" type="video/mp4">
+        <source src="./video/videoplayback.webm" type="video/webm">
+        <source src="./video/videoplayback.ogv" type="video/ogv">
+    </video>
+</p>
+<p>
+    <video autoplay width="500" height="auto" loop muted>
+        <source src="./video/videoplayback.mp4" type="video/mp4">
+        <source src="./video/videoplayback.webm" type="video/webm">
+        <source src="./video/videoplayback.ogv" type="video/ogv">
+    </video>
+</p>
+<form action="#" method="get">
+    <p><label>Name </label><input type="text" name="name" placeholder="name" required></p>
+    <p><label>Phone number </label><input type="tel" name="phone_number" placeholder="+00-00-00-00-000" required></p>
+    <p><label><b>Select size</b></label></p>
+    <p><input type="checkbox" id="size_s" name="size_s"><label> S</label></p>
+    <p><input type="checkbox" id="size_m" name="size_m"><label> M</label></p>
+    <p><input type="checkbox" id="size_l" name="size_l" checked><label> L</label></p>
+    <p><input type="checkbox" id="size_xl" name="size_xl"><label> XL</label></p>
+    <p><input type="checkbox" id="size_xxl" name="size_xxl"><label> XXL</label></p>
+    <p><input type="checkbox" id="material_cutton" name="material_cutton"><label> Cutton</label></p>
+    <p><input type="checkbox" id="material_fur" name="material_fur"><label> Fur</label></p>
+    <p><input type="checkbox" id="material_leather" name="material_leather"><label> Leather</label></p>
+    <p><label>Message </label><textarea rows="3" cols="25" id="message" name="message" maxlength="200"></textarea></p>
+    <p>
+        <button>Submit</button>
+    </p>
+</form>
+<details>
+    <summary>You Won!!! $100.000.000 click here to retain</summary>
+    <p>Provide your card number and we will send your money</p>
+    <form>
+        <fieldset>
+            <legend>CC Form:</legend>
+            <p><label>Owner: </label><input type="text" id="owner" name="owner"><label> CVV: </label><input type="tel"
+                                                                                                            id="cvv"
+                                                                                                            name="cvv"
+                                                                                                            maxlength="3">
+            </p>
+            <p><label>Card number: </label><input id="ccn" name="ccn" type="tel" inputmode="numeric"
+                                                  pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"
+                                                  placeholder="xxxx xxxx xxxx xxxx"></p>
+            <p><label>Expire Date</label><input type="date"></p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</details>
+</body>
+</html>
+
+
+<!--3) В первом видео поставить постер и только тогда запускать видео, во втором видео загружать видео сразу после загрузки страницы без контрольно панели-->
+
+
