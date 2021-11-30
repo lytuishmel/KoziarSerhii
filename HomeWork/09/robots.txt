@@ -1,9 +1,8 @@
-Sitemap: https://site.com/sitemap.xml
-
 User-agent: *
 Allow /optimize*
 Disallow: /admin/
 Disallow: /avatar/
+Sitemap: https://site.com/sitemap.xml
 
 User-agent: Yandex
 Host: https://site.com/
