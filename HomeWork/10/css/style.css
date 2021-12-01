@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(253,235,204);
+}
+
+.center {
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagebox {
+    width: 75%;
+    float: left;
+}
+
+.imagebox img {
+    width: 100%;
+    height: auto;
+}
+
+.textbox {
+    width: 22%;
+    float: left;
+    /* Center vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+
+.textbox p {
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: grey;
+}
+
+.textbox a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
