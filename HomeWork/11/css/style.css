@@ -1,0 +1,29 @@
+.background {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    background-attachment: fixed;
+}
+.article {
+    width: 50%;
+}
+.headline{
+    text-transform: uppercase;
+    text-align: center;
+}
+.text{
+    text-transform: lowercase;
+    text-indent: 20px;
+}
+.form {
+    width: 50%;
+}
+
+.form input, .form textarea {
+    width: 100%;
+}
+
+.text, .headline, .form label{
+    text-shadow: white 0px 0px 10px;
+}
