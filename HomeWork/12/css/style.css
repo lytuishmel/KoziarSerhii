@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hw12{
+    background-color: grey;
+}
+
+.hw12:hover{
+    background-color: #b2b0b0;
+}
+
+.todo a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+
+.todo li {
+    list-style-image: url("../images/sqpurple.gif");
+}
