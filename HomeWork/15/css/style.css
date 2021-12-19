@@ -91,6 +91,7 @@
 }
 .navigate ul.menu  li  a:hover{
     background:#075D71;
+    z-index: 888;
 }
 .navigate ul.menu  li ul.sub-menu li a{
     color: #fff;
@@ -102,7 +103,7 @@
 }
 ul.sub-menu{
     display: none;
-    background: #63359E;
+    background: rgb(7, 93, 113, 0.8);
     position: absolute;
     left: 0;
     top: 37px;
@@ -112,7 +113,7 @@ ul.sub-menu{
 
 ul.sub-menu-child{
     display: none;
-    background: #e11717;
+    background: rgb(225, 23, 23, 0.8);
     position: absolute;
     left: 200px;
     top: 111px;
@@ -122,6 +123,7 @@ ul.sub-menu-child{
 
 .navigate ul.menu li:nth-child(3):hover ul.sub-menu{
     display: block;
+    z-index: 888;
 }
 .navigate ul.menu .sub-menu li:nth-child(4):hover ul.sub-menu-child{
     display: inline-block;
