@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/*header*/
 .header-section {
     background: url(https://wallpaperaccess.com/full/6584455.jpg) fixed;
 }
@@ -53,6 +54,16 @@
     float: left;
     display: inline;
     line-height: 150px;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clear {
+    clear: both;
 }
 
 /*navigation*/
