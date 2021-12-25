@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+/*text*/
+
+.text-shadow {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-shadow p {
+    margin: 30px;
+}
+
+.text-shadow p:nth-child(1) {
+    text-shadow: -20px 20px grey;
+}
+
+.text-shadow p:nth-child(2) {
+    text-shadow: 20px 20px 5px grey;
+}
+
+.text-shadow p:nth-child(3) {
+    text-shadow: 20px 20px 3px darkred, 20px 40px 3px darkblue;
+}
+
+.text-shadow p:nth-child(4) {
+    text-shadow: -1px -1px black, 0 1px 0 grey;
+    color: gold;
+}
+
+.text-shadow p:nth-child(5) {
+    text-shadow: 1px 1px 1px silver, -1px 1px 1px silver;
+    color: gold;
+}
+
+.text-shadow p:nth-child(6) {
+    text-shadow: 1px 1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    -1px -1px 0 black;
+    color: white;
+}
+
+/*box*/
+.box-shadow{
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+}
+.box-shadow:nth-child(1){
+    box-shadow: 10px 10px #ccc;
+    background: #00b3ff;
+}
+.box-shadow:nth-child(2){
+    box-shadow: 10px 10px 4px #ccc;
+    background: #00b3ff;
+}
+.box-shadow:nth-child(3){
+    box-shadow: inset blue 2px 2px 5px, inset red -2px -2px 5px;
+}
+
+.box-gradient{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.box-gradient-line {
+    background: linear-gradient(90deg, red, blue 45%, white 85%, red 98%);
+}
+.box-gradient-flag {
+    background: linear-gradient(red 33%, white 33%, white 66%, red 66%);
+    border: 1px solid;
+}
+.box-gradient-circle {
+    background: radial-gradient(white, dodgerblue 50%);
+}
+.box-gradient-circle2 {
+    background: radial-gradient(closest-side at 15% 15%, white, dodgerblue 100%);
+}
+.box-gradient-circle3 {
+    background: radial-gradient(black 5%, white 15%, white 25% , green 35%);
+}
